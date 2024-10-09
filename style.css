@@ -1,31 +1,24 @@
-{
-    
-    margin: 0;
-    padding: 0;
-    fontfamily:poppins'
-
-}
-
 body{
-    background: #f5efef;
-
+    margin: 0;
 }
-.gallery{
-    width: 900px;
+.tab{
+    height: 100vh;
+    background-color: aqua;
+    font-size: 100px;
+    font-family: poppins;
     display: flex;
-    overflow-x: scroll;
+    justify-content: center;
+    align-items: center;
 
 }
-.gallery div{
-    width: 100px;
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid gap: 20px;
-    padding: 10px;
-    flex::none;
-
-
+.tab:nth-child(even){
+    background-color: mediumspringgreen;
 }
-.gallery div img{
-    width: 1000%;
+#totop{
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+    width: 50px;
+    height: 50px;
+    background-image: ;
 }
